@@ -3,7 +3,7 @@ agent any
 stages {
 stage ('test') {
 steps {
-sh "mvn clean compile test"
+bat "mvn clean compile test"
 }
 }
 stage ('Build application') {
